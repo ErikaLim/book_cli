@@ -105,3 +105,5 @@ BookModel.reopenClass({
 ]
 
 });
+
+export default BookModel;

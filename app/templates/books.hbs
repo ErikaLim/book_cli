@@ -2,8 +2,6 @@
 
 {{#each book in model}}
   {{#link-to "books.book" book}}
-    <li>
-      {{book.title}}
-    </li>
+    <li>{{book.title}}</li>
   {{/link-to}}
 {{/each}}

@@ -1,5 +1,10 @@
 import Ember from 'ember';
 
-export default Ember.Route.extend({
-  
+var BooksRoute = Ember.Route.extend({
+  model:function() {
+    return this.store.find("book");
+  }
 });
+
+
+export default BooksRoute;
